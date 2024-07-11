@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/****************HEADER*****************/
+#topo {
+    background-color: burlywood;
+}
+#logo{
+    background-image: url(../images/índice.png); width: 200px; height: 200px;
+}
+/***************NAV********************/
+#menu {
+    background-color: blueviolet;
+}
+.destaques {
+    background-color: coral;
+}
+#rodape {
+    background-color: brown;
+}
