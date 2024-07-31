@@ -68,19 +68,19 @@ a:hover {
 }
 
 .area{
-    background-color: rgb(235, 229, 229);
+    background-color: rgb(41, 40, 40);
+
 }
 
 main{
     background-color: #111111;
     margin: 0;
     padding: 10px;
-}
-
-main {
     color: white;
     font-size: 20px;
 }
+
+
 
 main h2{
     text-align: center;
@@ -88,19 +88,45 @@ main h2{
 }
 main li{
     margin: 50px;
-    margin-left: 45%;
+    margin-left: 40%;
     padding: 10px;
     
 }
 
- .destaques span{
-    
- 
+main img{
+    height: 400px;
+    width: 300px;
 }
 
-.produtos table, .produtos th{
-    margin-left: 42%;
+main span{
+    font-size: 30px;
+}
+
+.produtos table, th, td{
+    margin-bottom: 80px;
+    padding: 40px;
+    border: 1px solid;
+    margin-left: 30%;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 500px;
+
+
+    
+}
+
+
+
+#formulario{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#formulario input, #formulario select, #formulario textarea{
+    color: white;
+    
+}
+
+.contatos{
+   
 }
