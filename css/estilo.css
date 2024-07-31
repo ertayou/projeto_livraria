@@ -1,41 +1,106 @@
+body{
+    background-color: bisque;
+}
+
 #topo {
-    background-color: blue;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-variant: small-caps;
     text-align: center;
-    color: red;
+    color: rgb(255, 255, 255);
+    background-color: #333333;
+    height: 100%;
+    padding: 8px;
+    margin: 0;
     
 }
-#menu {
-    background-color: rgb(0, 139, 231);
+#menu, #rodape {
+    text-align: center;
 }
-.destaques, .produtos, .sobre, .contatos {
-    background-color: rgb(7, 124, 179);
+
+#menu ul, #rodape ul{
+   font-size: 170%;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333333
 }
-#rodape {
-    background-color: rgb(1, 27, 61);
+
+#menu li, #rodape li{
+    float: left;
+    margin-left: 195px;
+    
 }
+
+#menu a, #rodape a{
+   display: block;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   padding: 20px;
+   text-decoration: none;
+}
+
 #rodape p {
     font-weight: 900;
-    font-size: 50px;
-    color: white;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: underline solid;
     text-transform: capitalize;
-    
-
+    background-color: #333333;
+    padding: 40px;
+    margin: 0;
 }
+#rodape ul{
+    margin-top: 50px;
+    margin: 0;
+}
+
 a {
     text-decoration:none;
 }
 a:visited {
-    color: antiquewhite;
+    color: black;
 }
 a:hover {
-    background-color: black;
-    color: yellow;
+    background-color: #111111;
+}
+
+.area{
+    background-color: rgb(235, 229, 229);
+}
+
+main{
+    background-color: #111111;
+    margin: 0;
+    padding: 10px;
+}
+
+main {
+    color: white;
     font-size: 20px;
-    margin: 5px;
-    border: solid 2px white;
+}
+
+main h2{
+    text-align: center;
+    font-size: 40px;
+}
+main li{
+    margin: 50px;
+    margin-left: 45%;
+    padding: 10px;
+    
+}
+
+ .destaques span{
+    
+ 
+}
+
+.produtos table, .produtos th{
+    margin-left: 42%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 500px;
 }

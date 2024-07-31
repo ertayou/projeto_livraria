@@ -26,23 +26,23 @@
     </nav>
     <main class="contatos">
         <form action="#">
-            <fieldset>
+            <fieldset id="campo">
                 <legend>Contate-nos</legend>
                 <div>
                   <label for="name">Nome</label><br>
-                  <input type="text" id="name" placeholder="digite seu nome"><br>
+                  <input type="text" id="name" class="area" placeholder="digite seu nome"><br>
                 </div>
                 <div>
                   <label for="email">Email</label><br>
-                  <input type="email" id="email" placeholder="digite seu email"><br>
+                  <input type="email" id="email" class="area" placeholder="digite seu email"><br>
                </div>
                <div>
                   <label for="telefone">Telefone</label><br>
-                  <input type="tel" id="telefone" placeholder="Telefone"><br>
+                  <input type="tel" id="telefone" class="area" placeholder="Telefone"><br>
                </div>
                <div>
                   <label for="assunto">Assunto</label><br>
-                  <select id="assunto">
+                  <select id="assunto" class="area">
                       <option value="sel">Selecione --</option>
                       <option value="trocas">Trocas</option>
                       <option value="atend">Atendimento</option>
@@ -52,11 +52,11 @@
                </div>
                 <div>
                   <label for="mensagem">Mensagem</label><br>
-                  <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                  <textarea name="" id="texto" class="area" cols="30" rows="10"></textarea><br>
                 </div>
                 <div>
                   <label for="check">Desejo receber informações sobre a livraria John e Paul</label><br>
-                  <input type="checkbox" id="check"><br>
+                  <input type="checkbox" id="check" class="area"><br>
                 </div>
                 <button type="submit">Enviar</button>
                 <button type="reset">Apagar</button>
