@@ -86,17 +86,8 @@ main h2{
     text-align: center;
     font-size: 40px;
 }
-main li{
-    margin: 50px;
-    margin-left: 40%;
-    padding: 10px;
-    
-}
 
-main img{
-    height: 400px;
-    width: 300px;
-}
+
 
 main span{
     font-size: 30px;
@@ -125,4 +116,24 @@ main span{
 #formulario input, #formulario select, #formulario textarea{
     color: white;
     
+}
+
+#dest ul{
+    margin-left: 33%;
+    margin-right: 33%;
+    flex-wrap: wrap;
+    
+    
+
+
+}
+
+#dest li{
+    display: inline-block;
+    margin: 10;
+}
+
+#dest span{
+    font-size: 25px;
+    margin: 25px;
 }
