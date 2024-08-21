@@ -1,5 +1,6 @@
 body{
     background-color: bisque;
+    border: 0;
 }
 
 #topo {
@@ -11,7 +12,7 @@ body{
     background-color: #333333;
     height: 100%;
     padding: 8px;
-    margin: 0;
+    
     
 }
 #menu, #rodape {
@@ -24,7 +25,8 @@ body{
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: #333333
+   background-color: #333333;
+   display: flex;
 }
 
 #menu li, #rodape li{
@@ -78,6 +80,8 @@ main{
     padding: 10px;
     color: white;
     font-size: 20px;
+    
+    
 }
 
 
@@ -100,9 +104,6 @@ main span{
     margin-left: 30%;
     text-align: center;
     font-size: 30px;
-
-
-    
 }
 
 
@@ -119,21 +120,22 @@ main span{
 }
 
 #dest ul{
-    margin-left: 33%;
-    margin-right: 33%;
-    flex-wrap: wrap;
-    
-    
-
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
 
 }
 
 #dest li{
-    display: inline-block;
-    margin: 10;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   width: 50%;
 }
 
 #dest span{
-    font-size: 25px;
-    margin: 25px;
+    margin: 6%;
+    margin-top: 10%;
+
 }
+
