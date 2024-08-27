@@ -1,0 +1,36 @@
+body{
+    background-color: #333333;
+}
+
+#topo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    padding: 8px;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 200%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333
+}
+
+menu li{
+    text-decoration: none;
+    overflow: hidden;
+}
+
+menu a:link, a:visited, a:hover, a:active{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
