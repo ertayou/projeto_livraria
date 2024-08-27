@@ -19,9 +19,6 @@ body{
 
 /*NAV*/
 
-#menu{
-    text-align: center;
-}
 
 #menu ul{
    font-size: 170%;
@@ -31,26 +28,21 @@ body{
    overflow: hidden;
    background-color: #333333;
    display: flex;
+   justify-content: space-evenly;
 }
 
+
 #menu li{
-    float: left;
-    margin-left: 195px;
+    margin-left: 8%;
 }
 
 #menu a{
    display: block;
    color: rgb(255, 255, 255);
-   text-align: center;
    padding: 20px;
    text-decoration: none;
 }
 
-
-#rodape ul{
-    margin-top: 50px;
-    margin: 0;
-}
 
 a {
     text-decoration:none;
@@ -134,9 +126,6 @@ main span{
 
 /*FOOTER*/
 
-#rodape {
-    text-align: center;
-}
 
 #rodape ul{
     font-size: 170%;
@@ -146,14 +135,10 @@ main span{
     overflow: hidden;
     background-color: #333333;
     display: flex;
+    justify-content: space-evenly;
  }
 
- #rodape li{
-    float: left;
-    margin-left: 195px;
-
-}
-
+ 
 #rodape a{
     display: block;
     color: rgb(255, 255, 255);
@@ -174,7 +159,3 @@ main span{
     margin: 0;
 }
 
-#rodape ul{
-    margin-top: 50px;
-    margin: 0;
-}
